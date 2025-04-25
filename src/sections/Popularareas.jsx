@@ -21,7 +21,7 @@ const Popularareas = () => {
     <>
       <div className={`${darkMode ? 'dark bg-black' : 'light bg-transparent'}`}>
         <section className={`${darkMode ? 'dark bg-gray-800' : 'light bg-red-100'} lg:w-[90%]
-       w-full h-fit bg-cover bg-center m-auto rounded-xl flex justify-center flex-col items-center lg:px-20 px-6 py-20 gap-20`}>
+       w-full h-fit bg-cover bg-center m-auto rounded-xl flex justify-center flex-col items-center lg:px-20 px-6 py-20 gap-20 mt-20`}>
           <div id="top" className='w-full grid lg:grid-cols-3 grid-cols-1 justify-center items-center gap-8'>
             <div>
               <h1 data-aos="zoom-in" className='text-red-500 dark:text-white font-medium'>POPULAR AREAS</h1>
