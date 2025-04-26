@@ -10,7 +10,6 @@ const DarkModeProvider = ({ children }) => {
         setDarkMode(!darkMode);
         // You may also save the dark mode preference in localStorage or a state management tool
     };
-
     return (
         <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
             {children}
@@ -25,5 +24,4 @@ const useDarkMode = () => {
     }
     return context;
 };
-
 export { DarkModeProvider, useDarkMode };
